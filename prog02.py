@@ -13,7 +13,7 @@ elementcss = driver.find_element(By.ID, "exampleCheck1").click()
 elementcss = driver.find_element(By.ID, "exampleInputPassword1").send_keys("contrasena")
 
 driver.find_element(by=By.XPATH, value="//input[@id='id_username']").click()
-driver.find_element(by=By.XPATH, value="//input[@name='bday']").send_keys("2001-12-12")
+driver.find_element(by=By.XPATH, value="//input[@name='bday']").send_keys("2002-12-12")
 
 
 elementcss = driver.find_element(By.ID, "inlineRadio1").click()
